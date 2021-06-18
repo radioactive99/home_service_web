@@ -1,0 +1,151 @@
+ <div class="container-fluid">
+        <div class="row  py-2 ml-1">
+            <div class="col-md-2"></div>
+            <div class="col-md-10 ">
+                <div class="row technician_part  ">
+                    <div class="col-xl-2 col-lg-3 col-md-4  text-center ">
+                        <div class="tech_user my-2">
+                            <img src="image/men1.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="tech-info text-center my-2">
+                            <h5>UserName</h5>
+                        </div>
+                    </div>
+                    <!-- <div class="line d-none d-md-block"></div> -->
+                    <div class="col-xl-10 col-lg-9 col-md-8 col-sm-12 my-2" >
+                       <div class="row">
+                           <div class="col-md-6">
+                                <div class="rating text-center">
+                                    <h2 class="mb-0">***</h2>
+                                    <h5>Overall Rating</h5>
+                                </div>
+                           </div>
+                           <div class="col-md-6">
+                                <div class="job_completed text-center">
+                                    <h2>561</h2>
+                                    <h5>Job Completed</h5>
+                                </div>
+                           </div>
+                       </div>
+                       <div class="row my-3 mx-3 review">
+                           <div class="col-md-1 user_review">
+                                <div class="user_img">
+                                    <p><i class="fa fa-user-circle-o" aria-hidden="true"></i></p>
+                                </div>
+                           </div>
+                           <div class="col-md-11">
+                               <div class="user_name">
+                                   <h5 class="px-0 px-md-4 px-lg-0">Kadeval Sanket</h5>
+                                   <p class="px-0 px-md-4 px-lg-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam et laboriosam soluta repudiandae sint culpa. Incidunt quae rerum temporibus </p>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="row my-3 mx-3 review">
+                        <div class="col-md-1 user_review">
+                             <div class="user_img">
+                                 <p><i class="fa fa-user-circle-o" aria-hidden="true"></i></p>
+                             </div>
+                        </div>
+                        <div class="col-md-11">
+                            <div class="user_name">
+                                <h5 class="px-0 px-md-4 px-lg-0">Kadeval Sanket</h5>
+                                <p class="px-0 px-md-4 px-lg-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam et laboriosam soluta repudiandae sint culpa. Incidunt quae rerum temporibus </p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="pl-3 text-center">View More</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+/* main service card  start */
+.service-card{
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px  black;
+    background-color: white;
+    color: black;
+}
+
+.service-card .service-img img{
+    width: 100%;
+    border-radius: 50px;
+}
+/* main service card end */
+
+/*  service image start */
+
+.service-img{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;    
+}
+.service-img img{
+    width: 50%;
+    height: 50%;
+    border-radius: 100%;
+}
+/* service image end */
+
+/* techinican user start */
+.technician_part{
+    width: 100%;
+    margin-bottom: 10px;
+    box-shadow: inset 1px 2px 2px rgb(12,19,80);
+    background-color: white;
+    display: flex;
+}
+/* .line{
+    height: 150px;
+    margin-top: 20px;
+    background-color: black;
+    width: 1px;
+} */
+.tech_user {
+    width: 100%;
+}
+.tech_user img{
+    width: 50%;
+    height: 150px;
+    border-radius: 100%;
+    image-rendering:optimizeQuality;
+}
+.job_related{
+    display: flex;
+}
+.review{
+    border: 1px solid black;
+    padding-top: 20px;
+}
+.user_img p i {
+    font-size: 45px;
+}
+
+
+
+
+
+
+        <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5 col-6">
+                <div class="service-card text-center">
+                    <div class="service-img text-center">
+                      <img src="image/plumbing.jpg" alt="plumbing image" class="img-fluid">
+                    </div>
+                    <div class="service-info">
+                      <h4 class="my-3">Plumbing</h4>
+                      <p>Know more about plumber service</p>
+                      <button class="btn btn-success" routerLink="/plumbingservice">Know More Here >>></button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
